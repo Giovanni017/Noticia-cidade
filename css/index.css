@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff url(../assets/fundo.png) repeat-x; 
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+#container {
+    margin: 0 auto;
+    width: 750px;
+}
+
+#topo {
+    background: url(../assets/detalhe-topo.png) no-repeat right top;
+    height: 150px;
+    padding-top: 25px;
+}
+
+.logo {
+    background: url(../assets/logo.png) no-repeat center;
+    height: 66px;
+    text-indent: -3000px;
+    width: 152px;
+}
