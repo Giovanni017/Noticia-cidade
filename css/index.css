@@ -8,6 +8,51 @@ body {
     font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 
+body.home #navegaçao a#Home,
+body.Brazil #navegaçao a#Brazil,
+body.International #navegaçao a#International,
+body.Economy #navegaçao a#Economy,
+body.Health #navegaçao a#Health,
+body.Science #navegaçao a#Science,
+body.Photos #navegaçao a#Photos {
+    background: #de003e;
+    color: #fff;
+    cursor: text;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#topo ul {
+    background: #b10333;
+    float: left;
+    margin-top: 30px;
+}
+
+#topo ul li {
+    float: left;
+}
+
+#topo ul a {
+    background: url(../assets/divisor.png) no-repeat left center;
+    color: #fff;
+    display: block;
+    font-size: 0.9em;
+    padding: 0.5em 1.5em;
+    text-decoration: none;
+}
+
+#topo ul .primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+}
+
 #container {
     margin: 0 auto;
     width: 750px;
