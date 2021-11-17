@@ -34,10 +34,10 @@ h2 {
 }
 
 h3 {
-    text-transform: uppercase;
     display: inline;
     font-size: 0.8em;
     padding: 3px;
+    text-transform: uppercase;
 }
 
 .destaque h3 {
