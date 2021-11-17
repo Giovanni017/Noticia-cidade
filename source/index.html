@@ -6,13 +6,13 @@
         <link rel="stylesheet" type="text/css" href="../css/index.css">
     </head>
 
-    <body id="tres-colunas" class="home">
+    <body class="Home">
 
         <div id="container">
             <div id="topo">
                 <h1 class="logo">Noticias cidade</h1>
                 <ul id="navegaçao">
-                    <li class="primeiro"><a id="Home" href="index.html">Home</a></li>
+                    <li class="primeiro"><a id="Home" href="Index.html">Home</a></li>
                     <li><a id="Brazil" href="Brazil.html">Brazil</a></li>
                     <li><a id="International" href="International.html">International</a></li>
                     <li><a id="Economy" href="Economy.html">Economy</a></li>
@@ -23,15 +23,64 @@
             </div>
 
             <div id="conteudo">
-                <div id="primario">Primario</div>
-                <div id="secundario">Secundario</div>
+                <div id="primario">
+                    <div class="caixa destaque">
+                        <h2>Destaque</h2>
+                        <div class="caixa-conteudo">
+                            <h3>Nova legislação</h3>
+                            <img class="imagem-principal" src="../assets/taxi.jpg">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ipsum risus.
+                            </p>
+                            <a href="">Leia mais</a>
+                        </div>
+                    </div>    
+                </div>
+
+                <div id="secundario">
+                    <div class="caixa entrevista">
+                        <h2>Ultima estrevista</h2>
+                        <div class="caixa-conteudo">
+                            <h3>Entrevista com Rafael Silva</h3>
+                            <img class="imagem-principal" src="../assets/doutor.jpg">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ipsum risus.
+                            </p>
+                            <a href="">Leia mais</a>
+                        </div>
+                    </div>   
+                </div>
+
                 <div id="lateral">
                     <div class="caixa">
                         <h2>Entrevistas</h2>
                         <div class="caixa-conteudo">
-                            Conteudo
+                            <ul>
+                                <li><a href="">Jose Almeida</a></li>
+                                <li><a href="">Felipe Barbosa</a></li>
+                                <li><a href="">Renato Rodrigues</a></li>
+                                <li><a href="">Rafael Silva</a></li>
+                                <li><a href="">Andre Carlos</a></li>
+                                <li><a href="">Marcio Mello</a></li>
+                                <li><a href="">João Pedro</a></li>
+                                <li><a href="">Fernando Weiss</a></li>
+                            </ul>
                         </div>
                     </div>
+                    <div class="caixa">
+                        <h2>News</h2>    
+                        <div class="caixa-conteudo">
+                            <form>
+                                <div>
+                                    <label for="email">Email:</label>
+                                    <input type="text" name="email" id="email" placeholder="e-mail">
+                                </div>
+                                <div>
+                                    <input class="submit" type="submit" value="cadastrar">
+                                </div>
+                            </form>                         
+                        </div>
+                    </div>     
                 </div>
             </div>
 
